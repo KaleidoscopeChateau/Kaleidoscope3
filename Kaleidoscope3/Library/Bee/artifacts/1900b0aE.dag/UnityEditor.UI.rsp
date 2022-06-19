@@ -116,11 +116,13 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:HORROR_FPS_KIT_PRESENT
 -define:PACKAGE_PHYSICS
 -define:PACKAGE_PHYSICS2D
 -define:PACKAGE_ANIMATION
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Horror FPS KIT/HFPS Assets/Content/Plugins/Newtonsoft.Json/Newtonsoft.Json Editor/Newtonsoft.Json.dll"
 -r:"C:/Program Files/Unity 2021.3.1f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity 2021.3.1f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity 2021.3.1f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"

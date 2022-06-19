@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637911180200000000
-    m_Hash: 4071063432
+      ticks: 637912186660000000
+    m_Hash: 925738558
   m_LockFileStatus:
     m_FilePath: E:/UnityProject/Kaleidoscope3/Kaleidoscope3/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637911180200000000
-    m_Hash: 4280870035
+      ticks: 637912186660000000
+    m_Hash: 3822719888
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
