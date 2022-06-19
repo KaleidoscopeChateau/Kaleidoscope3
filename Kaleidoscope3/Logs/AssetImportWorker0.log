@@ -15,7 +15,7 @@ E:/UnityProject/Kaleidoscope3/Kaleidoscope3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64122
+55185
 Successfully changed project path to: E:/UnityProject/Kaleidoscope3/Kaleidoscope3
 E:/UnityProject/Kaleidoscope3/Kaleidoscope3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/UnityProject/Kaleidoscope3/Kaleidoscope3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 103.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -63,93 +63,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008882 seconds.
+Registered in 0.008077 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 102.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 106.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.664 seconds
+- Completed reload, in  0.659 seconds
 Domain Reload Profiling:
-	ReloadAssembly (664ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (659ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (464ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (468ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (106ms)
+			SetupTypeCache (108ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (280ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
+				RefreshPlugins (107ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (128ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005035 seconds.
+Registered in 0.004810 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Kaleidoscope3\Kaleidoscope3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Kaleidoscope3\Kaleidoscope3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 103.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.198 seconds
+- Completed reload, in  1.184 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1199ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (1185ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (989ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (978ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
+			SetupTypeCache (258ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (527ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (533ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (104ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3939 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (1.3 MB). Loaded Objects now: 4386.
-Memory consumption went from 149.1 MB to 147.8 MB.
-Total: 3.178800 ms (FindLiveObjects: 0.300900 ms CreateObjectMapping: 0.214500 ms MarkObjects: 2.402900 ms  DeleteObjects: 0.259800 ms)
+Unloading 40 unused Assets / (1.3 MB). Loaded Objects now: 4387.
+Memory consumption went from 149.2 MB to 147.9 MB.
+Total: 3.223400 ms (FindLiveObjects: 0.312700 ms CreateObjectMapping: 0.207600 ms MarkObjects: 2.447800 ms  DeleteObjects: 0.254600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,7 +163,291 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 116386.670641 seconds.
-  path: Assets/Horror FPS KIT/HFPS Assets/Content
-  artifactKey: Guid(47375fb7f08a7f14598933a120e7a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror FPS KIT/HFPS Assets/Content using Guid(47375fb7f08a7f14598933a120e7a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec433279a51ed80e6a1e63394b2d3691') in 0.008051 seconds 
+  Time since last request: 117495.905517 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.007766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.124169 seconds.
+  path: Assets/Imges
+  artifactKey: Guid(d522cc26f342bfb42a94ec35b94f66b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imges using Guid(d522cc26f342bfb42a94ec35b94f66b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4411849c47404fff52c4ee076b14bd') in 0.003294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.432458 seconds.
+  path: Assets/Imges/Protomenuimg3.png
+  artifactKey: Guid(130fb9f768228af4685bc32b492a84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imges/Protomenuimg3.png using Guid(130fb9f768228af4685bc32b492a84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2751e1330b5864904ea8375dc0770802') in 0.097670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.834127 seconds.
+  path: Assets/Imges/Protomenuimg3.png
+  artifactKey: Guid(130fb9f768228af4685bc32b492a84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imges/Protomenuimg3.png using Guid(130fb9f768228af4685bc32b492a84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3134c8d309e8fa09e90be62defb48c8d') in 0.164583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.469578 seconds.
+  path: Assets/Imges/GimpLogo3.png
+  artifactKey: Guid(ca0e283164fd822438c5c703b7f86542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imges/GimpLogo3.png using Guid(ca0e283164fd822438c5c703b7f86542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa6d63d45f3aa027addea55a571e972') in 0.017854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.426445 seconds.
+  path: Assets/Imges/GimpLogo3.png
+  artifactKey: Guid(ca0e283164fd822438c5c703b7f86542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imges/GimpLogo3.png using Guid(ca0e283164fd822438c5c703b7f86542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e8d527afa4dafba9807406646fca52') in 0.055299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 202.665280 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes
+  artifactKey: Guid(10bf5d5b23d47a248922263b518f1476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes using Guid(10bf5d5b23d47a248922263b518f1476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4a7ad5581ac537ab9dce795b9b168f') in 0.004680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.893780 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Example Scenes
+  artifactKey: Guid(90f34509d881f31409863d864c9d0d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Example Scenes using Guid(90f34509d881f31409863d864c9d0d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7edd14026a0dd5d4e476d01be60421') in 0.005329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.672168 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Example Scenes/ScenePresistency
+  artifactKey: Guid(4ee5bbc05535054449cd35b8f61f06dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Example Scenes/ScenePresistency using Guid(4ee5bbc05535054449cd35b8f61f06dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd396aaf0c2cc379e8808d893d10b998b') in 0.005153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.634539 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Example Scenes/Basic
+  artifactKey: Guid(15912df14823f1a479c50680f9850b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Example Scenes/Basic using Guid(15912df14823f1a479c50680f9850b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bc3cff0b716a5a713b957a3a369ce7') in 0.005944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.927281 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes
+  artifactKey: Guid(16561ce3b6fc8104884d07b2e818acfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes using Guid(16561ce3b6fc8104884d07b2e818acfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c03d89848ed11cc5a44bee414b64d3a') in 0.005319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.905492 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase
+  artifactKey: Guid(49503388d1cf7304bb82b36b3d712931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase using Guid(49503388d1cf7304bb82b36b3d712931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdc9a492d56083e069ab1592d89b81e') in 0.004444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.469248 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/LightingData.asset
+  artifactKey: Guid(295c0fc9f8bf8584fb0b9f9e05b6bb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/LightingData.asset using Guid(295c0fc9f8bf8584fb0b9f9e05b6bb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096945fc3db2f0232530006b31725e6e') in 0.031838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/ReflectionProbe-0.exr
+  artifactKey: Guid(a62ff5efd1da7144685aeede10bf2f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/ReflectionProbe-0.exr using Guid(a62ff5efd1da7144685aeede10bf2f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa67aa3ba09e6f2ce3ba60c27e0a50f') in 0.060394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-4_comp_dir.png
+  artifactKey: Guid(3581e93b1eb54cb4fbfc4cf4c00d50a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-4_comp_dir.png using Guid(3581e93b1eb54cb4fbfc4cf4c00d50a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071c11afd2a44393a96fc5802fcafd5b') in 0.025498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-2_comp_dir.png
+  artifactKey: Guid(abdf8ecb08cd2f74c887e471fd2adb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-2_comp_dir.png using Guid(abdf8ecb08cd2f74c887e471fd2adb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b67c41962044719f18f9a7ef967f50c') in 0.025364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-2_comp_light.exr
+  artifactKey: Guid(dff7f6b185a08aa4ca23b0113cf4bdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-2_comp_light.exr using Guid(dff7f6b185a08aa4ca23b0113cf4bdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e378cf16a56d9dd97337c6d7cc03fb4b') in 0.027771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-3_comp_dir.png
+  artifactKey: Guid(aa50d64c372c1de47a2dd4f74f215a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-3_comp_dir.png using Guid(aa50d64c372c1de47a2dd4f74f215a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9ca6d2ac16e75f9ceffc2322afb320') in 0.026670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-0_comp_dir.png
+  artifactKey: Guid(b5f51bb86d797a14b9d3965f6d410234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-0_comp_dir.png using Guid(b5f51bb86d797a14b9d3965f6d410234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d7f4be39f164620415d7bf451c8ca8') in 0.018765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-4_comp_light.exr
+  artifactKey: Guid(88e6fe287a3f7dd49981915f790d900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-4_comp_light.exr using Guid(88e6fe287a3f7dd49981915f790d900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a584cd684962e351f407fa8f7179611b') in 0.022060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/OcclusionCullingData.asset
+  artifactKey: Guid(cd74316d5489c9945889247981ecbfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/OcclusionCullingData.asset using Guid(cd74316d5489c9945889247981ecbfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec4c1a8c4d9e24bbf786d5fb7fa5a5f') in 0.006223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-3_comp_light.exr
+  artifactKey: Guid(03c6b544e4281994a8f834bfb9685032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-3_comp_light.exr using Guid(03c6b544e4281994a8f834bfb9685032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f75efb403157d3ce3ba014f5e5028d') in 0.022074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-1_comp_dir.png
+  artifactKey: Guid(96b81836f9530954ea54c2c5dc034f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-1_comp_dir.png using Guid(96b81836f9530954ea54c2c5dc034f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ea4fee86961f4386b8c028b20cec42') in 0.029665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-5_comp_light.exr
+  artifactKey: Guid(7642bac18c2dfec478f5d8f43cedadbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-5_comp_light.exr using Guid(7642bac18c2dfec478f5d8f43cedadbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6aed55235f599948c22d406d658d0d') in 0.025038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-5_comp_dir.png
+  artifactKey: Guid(f9ef747f4e0c0fb46820541b774658b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-5_comp_dir.png using Guid(f9ef747f4e0c0fb46820541b774658b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef8a031a5a7758b39ad02f0a797c37a') in 0.028315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-0_comp_light.exr
+  artifactKey: Guid(f675ed440bcdff44b9e46df2c72b9ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-0_comp_light.exr using Guid(f675ed440bcdff44b9e46df2c72b9ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dbd0ca5d1efbb25da60e46ad714d00') in 0.026004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/NavMesh.asset
+  artifactKey: Guid(723f4a2c9987baf499881de3faf62749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/NavMesh.asset using Guid(723f4a2c9987baf499881de3faf62749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3396173cadc1ce58c0aa3cf904e22f8a') in 0.004413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-1_comp_light.exr
+  artifactKey: Guid(5284e95cde7057f45aa97fd13e07f3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-1_comp_light.exr using Guid(5284e95cde7057f45aa97fd13e07f3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e074d89782107198d9dbabc4d90bfca') in 0.024651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.577321 seconds.
+  path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase.unity
+  artifactKey: Guid(18578a8c82c5c9248a506d55236cae4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase.unity using Guid(18578a8c82c5c9248a506d55236cae4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fb63da8b556b77c268522f991712c1') in 0.005856 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004398 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Kaleidoscope3\Kaleidoscope3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Kaleidoscope3\Kaleidoscope3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Domain Reload Profiling:
+	ReloadAssembly (955ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (729ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3896 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.3 MB). Loaded Objects now: 4430.
+Memory consumption went from 150.1 MB to 148.8 MB.
+Total: 3.133500 ms (FindLiveObjects: 0.294700 ms CreateObjectMapping: 0.195800 ms MarkObjects: 2.350000 ms  DeleteObjects: 0.292000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004455 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Kaleidoscope3\Kaleidoscope3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Kaleidoscope3\Kaleidoscope3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.008 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1008ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3896 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.3 MB). Loaded Objects now: 4433.
+Memory consumption went from 150.1 MB to 148.8 MB.
+Total: 3.550400 ms (FindLiveObjects: 0.315900 ms CreateObjectMapping: 0.230200 ms MarkObjects: 2.718200 ms  DeleteObjects: 0.285000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
