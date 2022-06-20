@@ -300,6 +300,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -315,6 +316,38 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: _SCENELOADER
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099973476762869362, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d16393d5b32a3f04faa7203195872c84,
+        type: 3}
+    - target: {fileID: 3021880972353244024, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: SceneInfos.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3021880972353244024, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: SceneInfos.Array.data[0].LevelName
+      value: MainGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 3021880972353244024, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: SceneInfos.Array.data[0].Background
+      value: 
+      objectReference: {fileID: 21300000, guid: d16393d5b32a3f04faa7203195872c84,
+        type: 3}
+    - target: {fileID: 3021880972353244024, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: SceneInfos.Array.data[0].SceneBuildName
+      value: MainGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 3021880972353244024, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: SceneInfos.Array.data[0].LevelDescription
+      value: Leave no survivors
       objectReference: {fileID: 0}
     - target: {fileID: 5368730163172809352, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
         type: 3}
@@ -419,6 +452,16 @@ PrefabInstance:
     - target: {fileID: 5368730163172809352, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5658705336153171280, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069276833082089107, guid: b1aa73eb19c9acd41a7a3265a54a67f2,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
