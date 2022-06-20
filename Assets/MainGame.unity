@@ -27,7 +27,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.09611963, g: 0.15071042, b: 0.4528302, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 025ba6a6aa9f18c4492c84bd1ee7d260, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 354ecf8791e4a3246a66dbfdbf371212, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -92145,7 +92145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1966289225025237961
 Transform:
   m_ObjectHideFlags: 0
@@ -121894,7 +121894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &5017035913691819827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126699,7 +126699,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6127773320377997007
 Transform:
   m_ObjectHideFlags: 0
@@ -127903,7 +127903,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &6455301561299381739
 MonoBehaviour:
   m_ObjectHideFlags: 0
