@@ -1,0 +1,380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0a624cf1a2146418cc4dd7a92ac8aa, type: 3}
+  m_Name: DP Menu Loc
+  m_EditorClassIdentifier: 
+  localization:
+    languages:
+    - name: English
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: Version Missing
+          text: 
+          texts:
+          - name: Version Info
+            text: '
+
+              The Diaries Pack Version file is missing from
+              your project, Diaries Pack cannot run without it!
+
+
+              You
+              can re-import the Diaries Pack Version file from the Diaries Pack asset
+              pack on the asset store/package manager.
+
+'
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Welcome
+          local: Welcome
+          text: 
+          texts:
+          - name: Instructions
+            text: '
+
+              Hello and welcome to Diaries Pack!
+
+
+              Diaries
+              Pack comes with both Audio Diaries and Text Diaries for HFPS, demo
+              scenes are included to show how each pack works individually as well
+              as together.
+
+
+              If you like the asset don''t forget to
+              leave a review!
+
+'
+          buttons:
+          - name: Save Language
+            local: Save Language
+          - name: Review Asset
+            local: Review Asset
+          toggles: []
+          prompts: []
+          singleValues:
+          - name: Show On Start
+            local: Show On Start
+        - name: Localization
+          local: Localization
+          text: 
+          texts:
+          - name: Instructions
+            text: '
+
+              Diaries Pack supports and works with HFPS Localization
+              System!
+
+
+              However in order to use this integration you
+              must do the following:
+
+
+              1. Activate HFPS Localization
+
+              2.
+              Activate DM Localization (1st button)
+
+              3. Import DP Localization
+              Pack (2nd button)
+
+
+              Demo scenes for full localization
+              setups are provided in the scenes folder for each asset.
+
+'
+          buttons:
+          - name: Activate Localization
+            local: Activate Localization
+          - name: Import Localization
+            local: Import Localization
+          toggles: []
+          prompts:
+          - name: Add Symbol
+            header: Add Symbol?
+            message: "You are about to add a new Define Symbol to your settings,
+              this will force your scripts to re-compile. Make sure to save before
+              adding new Define Symbols. \n\nAre you sure?"
+            buttons:
+            - name: Add
+              local: Add
+            - name: Cancel
+              local: Cancel
+          singleValues: []
+        buttons: []
+        singleValues: []
+    - name: Chinese Simplified
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: "\u7248\u672C\u7F3A\u5931"
+          text: 
+          texts:
+          - name: Version Info
+            text: "\n\u60A8\u7684\u9879\u76EE\u4E2D\u7F3A\u5C11 Diaries Pack \u7248\u672C\u6587\u4EF6\uFF0C\u6CA1\u6709\u5B83
+              Diaries Pack \u5C06\u65E0\u6CD5\u8FD0\u884C\uFF01\r\n\r\n\u60A8\u53EF\u4EE5\u4ECE\u8D44\u4EA7\u5546\u5E97/\u5305\u7BA1\u7406\u5668\u4E0A\u7684
+              Diaries Pack \u8D44\u4EA7\u5305\u91CD\u65B0\u5BFC\u5165 Diaries Pack
+              \u7248\u672C\u6587\u4EF6\u3002\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Welcome
+          local: "\u6B22\u8FCE"
+          text: 
+          texts:
+          - name: Instructions
+            text: "\n\u60A8\u597D\uFF0C\u6B22\u8FCE\u6765\u5230\u65E5\u8BB0\u5305\uFF01\r\n\r\nDiaries
+              Pack \u968F\u9644\u7528\u4E8E HFPS \u7684\u97F3\u9891\u65E5\u8BB0\u548C\u6587\u672C\u65E5\u8BB0\uFF0C\u5176\u4E2D\u5305\u542B\u6F14\u793A\u573A\u666F\u4EE5\u5C55\u793A\u6BCF\u4E2A\u5305\u5982\u4F55\u5355\u72EC\u4EE5\u53CA\u4E00\u8D77\u5DE5\u4F5C\u3002\r\n\r\n\u5982\u679C\u60A8\u559C\u6B22\u8BE5\u8D44\u4EA7\uFF0C\u8BF7\u4E0D\u8981\u5FD8\u8BB0\u53D1\u8868\u8BC4\u8BBA\uFF01\n"
+          buttons:
+          - name: Save Language
+            local: "\u4FDD\u5B58\u8BED\u8A00"
+          - name: Review Asset
+            local: "\u5BA1\u67E5\u8D44\u4EA7"
+          toggles: []
+          prompts: []
+          singleValues:
+          - name: Show On Start
+            local: "\u5F00\u59CB\u65F6\u663E\u793A"
+        - name: Localization
+          local: "\u672C\u571F\u5316"
+          text: 
+          texts:
+          - name: Instructions
+            text: "\nDiaries Pack \u652F\u6301\u5E76\u4E0E HFPS \u672C\u5730\u5316\u7CFB\u7EDF\u4E00\u8D77\u4F7F\u7528\uFF01\r\n\r\n\u4F46\u662F\uFF0C\u8981\u4F7F\u7528\u6B64\u96C6\u6210\uFF0C\u60A8\u5FC5\u987B\u6267\u884C\u4EE5\u4E0B\u64CD\u4F5C\uFF1A\r\n\r\n1.
+              \u6FC0\u6D3B HFPS \u672C\u5730\u5316\r\n2. \u6FC0\u6D3B DM \u672C\u5730\u5316\uFF08\u7B2C\u4E00\u4E2A\u6309\u94AE\uFF09\r\n3.
+              \u5BFC\u5165 DP \u672C\u5730\u5316\u5305\uFF08\u7B2C\u4E8C\u4E2A\u6309\u94AE\uFF09\r\n\r\n\u6BCF\u4E2A\u8D44\u4EA7\u7684\u573A\u666F\u6587\u4EF6\u5939\u4E2D\u63D0\u4F9B\u4E86\u5B8C\u6574\u672C\u5730\u5316\u8BBE\u7F6E\u7684\u6F14\u793A\u573A\u666F\u3002\n"
+          buttons:
+          - name: Activate Localization
+            local: "\u6FC0\u6D3B\u672C\u5730\u5316"
+          - name: Import Localization
+            local: "\u5BFC\u5165\u672C\u5730\u5316"
+          toggles: []
+          prompts:
+          - name: Add Symbol
+            header: "\u6DFB\u52A0\u7B26\u53F7\uFF1F"
+            message: "\u60A8\u5373\u5C06\u5728\u8BBE\u7F6E\u4E2D\u6DFB\u52A0\u4E00\u4E2A\u65B0\u7684\u5B9A\u4E49\u7B26\u53F7\uFF0C\u8FD9\u5C06\u5F3A\u5236\u60A8\u7684\u811A\u672C\u91CD\u65B0\u7F16\u8BD1\u3002\u786E\u4FDD\u5728\u6DFB\u52A0\u65B0\u7684\u5B9A\u4E49\u7B26\u53F7\u4E4B\u524D\u4FDD\u5B58\u3002\r\n\r\n\u4F60\u786E\u5B9A\u5417\uFF1F"
+            buttons:
+            - name: Add
+              local: "\u6DFB\u52A0"
+            - name: Cancel
+              local: "\u53D6\u6D88"
+          singleValues: []
+        buttons: []
+        singleValues: []
+    - name: Chinese Traditional
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: "\u7248\u672C\u7F3A\u5931"
+          text: 
+          texts:
+          - name: Version Info
+            text: "\n\u60A8\u7684\u9805\u76EE\u4E2D\u7F3A\u5C11 Diaries Pack \u7248\u672C\u6587\u4EF6\uFF0C\u6C92\u6709\u5B83
+              Diaries Pack \u5C07\u7121\u6CD5\u904B\u884C\uFF01\r\n\r\n\u60A8\u53EF\u4EE5\u5F9E\u8CC7\u7522\u5546\u5E97/\u5305\u7BA1\u7406\u5668\u4E0A\u7684
+              Diaries Pack \u8CC7\u7522\u5305\u91CD\u65B0\u5C0E\u5165 Diaries Pack
+              \u7248\u672C\u6587\u4EF6\u3002\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Welcome
+          local: "\u6B61\u8FCE"
+          text: 
+          texts:
+          - name: Instructions
+            text: "\n\u60A8\u597D\uFF0C\u6B61\u8FCE\u4F86\u5230\u65E5\u8A18\u5305\uFF01\r\n\r\nDiaries
+              Pack \u96A8\u9644\u7528\u65BC HFPS \u7684\u97F3\u983B\u65E5\u8A18\u548C\u6587\u672C\u65E5\u8A18\uFF0C\u5176\u4E2D\u5305\u542B\u6F14\u793A\u5834\u666F\u4EE5\u5C55\u793A\u6BCF\u500B\u5305\u5982\u4F55\u55AE\u7368\u4EE5\u53CA\u4E00\u8D77\u5DE5\u4F5C\u3002\r\n\r\n\u5982\u679C\u60A8\u559C\u6B61\u8A72\u8CC7\u7522\uFF0C\u8ACB\u4E0D\u8981\u5FD8\u8A18\u767C\u8868\u8A55\u8AD6\uFF01\n"
+          buttons:
+          - name: Save Language
+            local: "\u4FDD\u5B58\u8A9E\u8A00"
+          - name: Review Asset
+            local: "\u5BE9\u67E5\u8CC7\u7522"
+          toggles: []
+          prompts: []
+          singleValues:
+          - name: Show On Start
+            local: "\u958B\u59CB\u6642\u986F\u793A"
+        - name: Localization
+          local: "\u672C\u571F\u5316"
+          text: 
+          texts:
+          - name: Instructions
+            text: "\nDiaries Pack \u652F\u6301\u4E26\u8207 HFPS \u672C\u5730\u5316\u7CFB\u7D71\u4E00\u8D77\u4F7F\u7528\uFF01\r\n\r\n\u4F46\u662F\uFF0C\u8981\u4F7F\u7528\u6B64\u96C6\u6210\uFF0C\u60A8\u5FC5\u9808\u57F7\u884C\u4EE5\u4E0B\u64CD\u4F5C\uFF1A\r\n\r\n1.
+              \u6FC0\u6D3B HFPS \u672C\u5730\u5316\r\n2. \u6FC0\u6D3B DM \u672C\u5730\u5316\uFF08\u7B2C\u4E00\u500B\u6309\u9215\uFF09\r\n3.
+              \u5C0E\u5165 DP \u672C\u5730\u5316\u5305\uFF08\u7B2C\u4E8C\u500B\u6309\u9215\uFF09\r\n\r\n\u6BCF\u500B\u8CC7\u7522\u7684\u5834\u666F\u6587\u4EF6\u593E\u4E2D\u63D0\u4F9B\u4E86\u5B8C\u6574\u672C\u5730\u5316\u8A2D\u7F6E\u7684\u6F14\u793A\u5834\u666F\u3002\n"
+          buttons:
+          - name: Activate Localization
+            local: "\u6FC0\u6D3B\u672C\u5730\u5316"
+          - name: Import Localization
+            local: "\u5C0E\u5165\u672C\u5730\u5316"
+          toggles: []
+          prompts:
+          - name: Add Symbol
+            header: "\u6DFB\u52A0\u7B26\u865F\uFF1F"
+            message: "\u60A8\u5373\u5C07\u5728\u8A2D\u7F6E\u4E2D\u6DFB\u52A0\u4E00\u500B\u65B0\u7684\u5B9A\u7FA9\u7B26\u865F\uFF0C\u9019\u5C07\u5F37\u5236\u60A8\u7684\u8173\u672C\u91CD\u65B0\u7DE8\u8B6F\u3002\u78BA\u4FDD\u5728\u6DFB\u52A0\u65B0\u7684\u5B9A\u7FA9\u7B26\u865F\u4E4B\u524D\u4FDD\u5B58\u3002\r\n\r\n\u4F60\u78BA\u5B9A\u55CE\uFF1F"
+            buttons:
+            - name: Add
+              local: "\u6DFB\u52A0"
+            - name: Cancel
+              local: "\u53D6\u6D88"
+          singleValues: []
+        buttons: []
+        singleValues: []
+    - name: French
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: Version manquante
+          text: 
+          texts:
+          - name: Version Info
+            text: "\nLe fichier Diaries Pack Version est absent de votre projet,
+              Diaries Pack ne peut pas fonctionner sans lui !\r\n\r\nVous pouvez
+              r\xE9importer le fichier de version du pack de journaux \xE0 partir
+              du pack de ressources du pack de journaux sur le magasin de ressources/gestionnaire
+              de packages.\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Welcome
+          local: Bienvenu
+          text: 
+          texts:
+          - name: Instructions
+            text: "\nBonjour et bienvenue dans Diaries Pack\_!\r\n\r\nDiaries Pack
+              est livr\xE9 avec des journaux audio et des journaux textuels pour
+              HFPS, des sc\xE8nes de d\xE9monstration sont incluses pour montrer
+              comment chaque pack fonctionne individuellement et ensemble.\r\n\r\nSi
+              vous aimez l'actif, n'oubliez pas de laisser un commentaire\_!\n"
+          buttons:
+          - name: Save Language
+            local: Enregistrer la langue
+          - name: Review Asset
+            local: Examiner l'actif
+          toggles: []
+          prompts: []
+          singleValues:
+          - name: Show On Start
+            local: "Afficher au d\xE9marrage"
+        - name: Localization
+          local: Localization
+          text: 
+          texts:
+          - name: Instructions
+            text: "\nDiaries Pack prend en charge et fonctionne avec le syst\xE8me
+              de localisation HFPS\_!\r\n\r\nCependant, pour utiliser cette int\xE9gration,
+              vous devez effectuer les op\xE9rations suivantes\_:\r\n\r\n1. Activer
+              la localisation HFPS\r\n2. Activer la localisation DM (1er bouton)\r\n3.
+              Importer le pack de localisation DP (2\xE8me bouton)\r\n\r\nLes sc\xE8nes
+              de d\xE9monstration pour les configurations de localisation compl\xE8tes
+              sont fournies dans le dossier des sc\xE8nes pour chaque ressource.\n"
+          buttons:
+          - name: Activate Localization
+            local: Activer la localisation
+          - name: Import Localization
+            local: Localisation d'importation
+          toggles: []
+          prompts:
+          - name: Add Symbol
+            header: "Ajouter un symbole\_?"
+            message: "Vous \xEAtes sur le point d'ajouter un nouveau symbole D\xE9finir
+              \xE0 vos param\xE8tres, cela forcera vos scripts \xE0 se recompiler.
+              Assurez-vous d'enregistrer avant d'ajouter de nouveaux symboles D\xE9finir.\r\n\r\nEs-tu
+              s\xFBr?"
+            buttons:
+            - name: Add
+              local: Ajouter
+            - name: Cancel
+              local: Annuler
+          singleValues: []
+        buttons: []
+        singleValues: []
+    - name: Spanish
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: "Falta la versi\xF3n"
+          text: 
+          texts:
+          - name: Version Info
+            text: "\nFalta el archivo de la versi\xF3n del paquete de diarios en
+              su proyecto, \xA1el paquete de diarios no puede ejecutarse sin \xE9l!\r\n\r\nPuede
+              volver a importar el archivo de la versi\xF3n del paquete de diarios
+              desde el paquete de activos del paquete de diarios en la tienda de
+              activos/administrador de paquetes.\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Welcome
+          local: Bienvenido
+          text: 
+          texts:
+          - name: Instructions
+            text: "\n\xA1Hola y bienvenidos a Diarios Pack!\r\n\r\nEl paquete de
+              diarios viene con diarios de audio y diarios de texto para HFPS, se
+              incluyen escenas de demostraci\xF3n para mostrar c\xF3mo funciona cada
+              paquete individualmente y en conjunto.\r\n\r\nSi te gusta el activo,
+              \xA1no olvides dejar un comentario!\n"
+          buttons:
+          - name: Save Language
+            local: Guardar idioma
+          - name: Review Asset
+            local: Revisar activo
+          toggles: []
+          prompts: []
+          singleValues:
+          - name: Show On Start
+            local: Mostrar al inicio
+        - name: Localization
+          local: "Localizaci\xF3n"
+          text: 
+          texts:
+          - name: Instructions
+            text: "\n\xA1Diaries Pack es compatible y funciona con el sistema de
+              localizaci\xF3n HFPS!\r\n\r\nSin embargo, para utilizar esta integraci\xF3n,
+              debe hacer lo siguiente:\r\n\r\n1. Activar localizaci\xF3n HFPS\r\n2.
+              Activar Localizaci\xF3n DM (1er bot\xF3n)\r\n3. Importar paquete de
+              localizaci\xF3n de DP (segundo bot\xF3n)\r\n\r\nLas escenas de demostraci\xF3n
+              para configuraciones de localizaci\xF3n completas se proporcionan en
+              la carpeta de escenas de cada recurso.\n"
+          buttons:
+          - name: Activate Localization
+            local: "Activar Localizaci\xF3n"
+          - name: Import Localization
+            local: "Importar Localizaci\xF3n"
+          toggles: []
+          prompts:
+          - name: Add Symbol
+            header: "\xBFAgregar s\xEDmbolo?"
+            message: "Est\xE1 a punto de agregar un nuevo s\xEDmbolo de definici\xF3n
+              a su configuraci\xF3n, esto forzar\xE1 que sus scripts se vuelvan a
+              compilar. Aseg\xFArese de guardar antes de agregar nuevos Definir s\xEDmbolos.\r\n\r\n\xBFEst\xE1
+              seguro?"
+            buttons:
+            - name: Add
+              local: Agregar
+            - name: Cancel
+              local: Cancelar
+          singleValues: []
+        buttons: []
+        singleValues: []

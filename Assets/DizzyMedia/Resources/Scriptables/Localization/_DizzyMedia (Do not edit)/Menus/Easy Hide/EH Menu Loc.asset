@@ -1,0 +1,450 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0a624cf1a2146418cc4dd7a92ac8aa, type: 3}
+  m_Name: EH Menu Loc
+  m_EditorClassIdentifier: 
+  localization:
+    languages:
+    - name: English
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: Version Missing
+          texts:
+          - name: Version Info
+            text: '
+
+              The Easy Hide Version file is missing from your
+              project, Easy Hide cannot run without it!
+
+
+              You can re-import
+              the Easy Hide Version file from the Easy Hide asset pack on the
+
+              asset
+              store/package manager.
+
+'
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Welcome
+          local: Welcome
+          texts:
+          - name: Easy Hide Not Active
+            text: EASY HIDE NOT ACTIVE! Check the SETUP tab for instructions.
+          - name: Easy Hide Active
+            text: EASY HIDE ACTIVE!
+          - name: Instructions
+            text: '
+
+              Hello and welcome to Easy Hide!
+
+
+              Before
+              getting started make sure to check the Setup tab for the initial setup
+              instructions.
+
+'
+          buttons:
+          - name: Save Language
+            local: Save Language
+          - name: Documentation
+            local: Documentation
+          - name: Review Asset
+            local: Review Asset
+          toggles: []
+          prompts: []
+          singleValues:
+          - name: Show On Start
+            local: Show On Start
+        - name: Setup
+          local: Setup
+          texts:
+          - name: Easy Hide Not Active
+            text: EASY HIDE NOT ACTIVE! Follow the instructions below.
+          - name: Easy Hide Active
+            text: EASY HIDE ACTIVE!
+          - name: Instructions
+            text: '
+
+              Most of Easy Hides features are available to use
+              right away however a few features do require minor edits to the HFPS
+              system components in order to function properly.
+
+
+              Before
+              activating Easy Hide use the Script Editor extension, this extension
+              will make automatic edits to scripts that Easy Hide uses.
+
+
+              If
+              you''ve already made the necessary edits use the button below to activate
+              Easy Hide and import gizmos.
+
+'
+          buttons:
+          - name: Open Script Editor
+            local: Open Script Editor
+          - name: Activate Easy Hide
+            local: Activate Easy Hide
+          - name: Import Gizmos
+            local: Import Gizmos
+          toggles: []
+          prompts:
+          - name: Add Symbol
+            header: Add Symbol?
+            message: "You are about to add a new Define Symbol to your settings,
+              this will force your scripts to re-compile. Make sure to save before
+              adding new Define Symbols. \n\nAre you sure?"
+            buttons:
+            - name: Add
+              local: Add
+            - name: Cancel
+              local: Cancel
+          - name: Import Gizmos
+            header: Import Gizmos?
+            message: You are about to move Gizmo files from the Dizzy Media parent
+              folder to the Gizmos folder. If you've already done this, close this
+              window.
+            buttons:
+            - name: Move
+              local: Move
+            - name: Cancel
+              local: Cancel
+          singleValues: []
+    - name: Chinese Simplified
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: "\u7248\u672C\u7F3A\u5931"
+          texts:
+          - name: Version Info
+            text: "\n\u60A8\u7684\u9879\u76EE\u4E2D\u7F3A\u5C11 Easy Hide \u7248\u672C\u6587\u4EF6\uFF0C\u6CA1\u6709\u5B83\uFF0CEasy
+              Hide \u5C06\u65E0\u6CD5\u8FD0\u884C\uFF01\r\n\r\n\u60A8\u53EF\u4EE5\u4ECE\u4E0A\u7684
+              Easy Hide \u8D44\u4EA7\u5305\u91CD\u65B0\u5BFC\u5165\u97F3\u9891\u65E5\u8BB0\u7248\u672C\u6587\u4EF6\r\n\u8D44\u4EA7\u5546\u5E97/\u5305\u7BA1\u7406\u5668\u3002\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Welcome
+          local: "\u6B22\u8FCE"
+          texts:
+          - name: Easy Hide Not Active
+            text: "\u8F7B\u677E\u9690\u85CF\u4E0D\u6D3B\u52A8\uFF01\u68C0\u67E5\u8BBE\u7F6E\u9009\u9879\u5361\u4EE5\u83B7\u53D6\u8BF4\u660E\u3002"
+          - name: Easy Hide Active
+            text: "\u8F7B\u677E\u9690\u85CF\u6D3B\u52A8\uFF01"
+          - name: Instructions
+            text: "\n\u60A8\u597D\uFF0C\u6B22\u8FCE\u6765\u5230 Easy Hide\uFF01\r\n\r\n\u5728\u5F00\u59CB\u4E4B\u524D\uFF0C\u8BF7\u52A1\u5FC5\u68C0\u67E5\u201C\u8BBE\u7F6E\u201D\u9009\u9879\u5361\u4EE5\u83B7\u53D6\u521D\u59CB\u8BBE\u7F6E\u8BF4\u660E\u3002\n"
+          buttons:
+          - name: Save Language
+            local: "\u4FDD\u5B58\u8BED\u8A00"
+          - name: Documentation
+            local: "\u6587\u6863"
+          - name: Review Asset
+            local: "\u5BA1\u67E5\u8D44\u4EA7"
+          toggles: []
+          prompts: []
+          singleValues:
+          - name: Show On Start
+            local: "\u5F00\u59CB\u65F6\u663E\u793A"
+        - name: Setup
+          local: "\u8BBE\u7F6E"
+          texts:
+          - name: Easy Hide Not Active
+            text: "\u8F7B\u677E\u9690\u85CF\u4E0D\u6D3B\u52A8\uFF01\u8BF7\u6309\u7167\u4EE5\u4E0B\u8BF4\u660E\u8FDB\u884C\u64CD\u4F5C\u3002"
+          - name: Easy Hide Active
+            text: "\u8F7B\u677E\u9690\u85CF\u6D3B\u52A8\uFF01"
+          - name: Instructions
+            text: "\n\u5927\u591A\u6570 Easy Hides \u529F\u80FD\u90FD\u53EF\u4EE5\u7ACB\u5373\u4F7F\u7528\uFF0C\u4F46\u6709\u4E9B\u529F\u80FD\u9700\u8981\u5BF9
+              HFPS \u7CFB\u7EDF\u7EC4\u4EF6\u8FDB\u884C\u5C11\u91CF\u7F16\u8F91\u624D\u80FD\u6B63\u5E38\u8FD0\u884C\u3002\r\n\r\n\u5728\u6FC0\u6D3B
+              Easy Hide \u4E4B\u524D\uFF0C\u8BF7\u4F7F\u7528\u811A\u672C\u7F16\u8F91\u5668\u6269\u5C55\uFF0C\u6B64\u6269\u5C55\u5C06\u81EA\u52A8\u7F16\u8F91\u8C1C\u9898\u4F7F\u7528\u7684\u811A\u672C\u3002\r\n\r\n\u5982\u679C\u60A8\u5DF2\u7ECF\u8FDB\u884C\u4E86\u5FC5\u8981\u7684\u7F16\u8F91\uFF0C\u8BF7\u4F7F\u7528\u4E0B\u9762\u7684\u6309\u94AE\u6765\u6FC0\u6D3B
+              Easy Hide \u5E76\u5BFC\u5165 Gizmo\u3002\n"
+          buttons:
+          - name: Open Script Editor
+            local: "\u6253\u5F00\u811A\u672C\u7F16\u8F91\u5668"
+          - name: Activate Easy Hide
+            local: "\u6FC0\u6D3B\u8F7B\u677E\u9690\u85CF"
+          - name: Import Gizmos
+            local: "\u5BFC\u5165 Gizmo"
+          toggles: []
+          prompts:
+          - name: Add Symbol
+            header: "\u6DFB\u52A0\u7B26\u53F7\uFF1F"
+            message: "\u60A8\u5373\u5C06\u5728\u8BBE\u7F6E\u4E2D\u6DFB\u52A0\u4E00\u4E2A\u65B0\u7684\u5B9A\u4E49\u7B26\u53F7\uFF0C\u8FD9\u5C06\u5F3A\u5236\u60A8\u7684\u811A\u672C\u91CD\u65B0\u7F16\u8BD1\u3002\u786E\u4FDD\u5728\u6DFB\u52A0\u65B0\u7684\u5B9A\u4E49\u7B26\u53F7\u4E4B\u524D\u4FDD\u5B58\u3002\r\n\r\n\u4F60\u786E\u5B9A\u5417\uFF1F"
+            buttons:
+            - name: Add
+              local: "\u6DFB\u52A0"
+            - name: Cancel
+              local: "\u53D6\u6D88"
+          - name: Import Gizmos
+            header: "\u5BFC\u5165\u5C0F\u73A9\u610F\u513F\uFF1F"
+            message: "\u60A8\u5373\u5C06\u5C06 Gizmo \u6587\u4EF6\u4ECE Dizzy Media
+              \u7236\u6587\u4EF6\u5939\u79FB\u52A8\u5230 Gizmos \u6587\u4EF6\u5939\u3002\u5982\u679C\u60A8\u5DF2\u7ECF\u8FD9\u6837\u505A\u4E86\uFF0C\u8BF7\u5173\u95ED\u6B64\u7A97\u53E3\u3002"
+            buttons:
+            - name: Move
+              local: "\u79FB\u52A8"
+            - name: Cancel
+              local: "\u53D6\u6D88"
+          singleValues: []
+    - name: Chinese Traditional
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: "\u7248\u672C\u7F3A\u5931"
+          texts:
+          - name: Version Info
+            text: "\n\u60A8\u7684\u9805\u76EE\u4E2D\u7F3A\u5C11 Easy Hide \u7248\u672C\u6587\u4EF6\uFF0C\u6C92\u6709\u5B83\uFF0CEasy
+              Hide \u5C07\u7121\u6CD5\u904B\u884C\uFF01\r\n\r\n\u60A8\u53EF\u4EE5\u5F9E\u4E0A\u7684
+              Easy Hide \u8CC7\u7522\u5305\u91CD\u65B0\u5C0E\u5165 Easy Hide \u7248\u672C\u6587\u4EF6\r\n\u8CC7\u7522\u5546\u5E97/\u5305\u7BA1\u7406\u5668\u3002\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Welcome
+          local: "\u6B61\u8FCE"
+          texts:
+          - name: Easy Hide Not Active
+            text: "\u8F15\u9B06\u96B1\u85CF\u4E0D\u6D3B\u52D5\uFF01\u6AA2\u67E5\u8A2D\u7F6E\u9078\u9805\u5361\u4EE5\u7372\u53D6\u8AAA\u660E\u3002"
+          - name: Easy Hide Active
+            text: "\u8F15\u9B06\u96B1\u85CF\u6D3B\u52D5\uFF01"
+          - name: Instructions
+            text: "\n\u60A8\u597D\uFF0C\u6B61\u8FCE\u4F86\u5230 Easy Hide\uFF01\r\n\r\n\u5728\u958B\u59CB\u4E4B\u524D\uFF0C\u8ACB\u52D9\u5FC5\u6AA2\u67E5\u201C\u8A2D\u7F6E\u201D\u9078\u9805\u5361\u4EE5\u7372\u53D6\u521D\u59CB\u8A2D\u7F6E\u8AAA\u660E\u3002\n"
+          buttons:
+          - name: Save Language
+            local: "\u4FDD\u5B58\u8A9E\u8A00"
+          - name: Documentation
+            local: "\u6587\u6A94"
+          - name: Review Asset
+            local: "\u5BE9\u67E5\u8CC7\u7522"
+          toggles: []
+          prompts: []
+          singleValues:
+          - name: Show On Start
+            local: "\u958B\u59CB\u6642\u986F\u793A"
+        - name: Setup
+          local: "\u8A2D\u7F6E"
+          texts:
+          - name: Easy Hide Not Active
+            text: "\u8F15\u9B06\u96B1\u85CF\u4E0D\u6D3B\u52D5\uFF01\u8ACB\u6309\u7167\u4EE5\u4E0B\u8AAA\u660E\u9032\u884C\u64CD\u4F5C\u3002"
+          - name: Easy Hide Active
+            text: "\u8F15\u9B06\u96B1\u85CF\u6D3B\u52D5\uFF01"
+          - name: Instructions
+            text: "\n\u5927\u591A\u6578 Easy Hides \u529F\u80FD\u90FD\u53EF\u4EE5\u7ACB\u5373\u4F7F\u7528\uFF0C\u4F46\u6709\u4E9B\u529F\u80FD\u9700\u8981\u5C0D
+              HFPS \u7CFB\u7D71\u7D44\u4EF6\u9032\u884C\u5C11\u91CF\u7DE8\u8F2F\u624D\u80FD\u6B63\u5E38\u904B\u884C\u3002\r\n\r\n\u5728\u6FC0\u6D3B
+              Easy Hide \u4E4B\u524D\uFF0C\u8ACB\u4F7F\u7528\u8173\u672C\u7DE8\u8F2F\u5668\u64F4\u5C55\uFF0C\u6B64\u64F4\u5C55\u5C07\u5C0D
+              Easy Hide \u4F7F\u7528\u7684\u8173\u672C\u9032\u884C\u81EA\u52D5\u7DE8\u8F2F\u3002\r\n\r\n\u5982\u679C\u60A8\u5DF2\u7D93\u9032\u884C\u4E86\u5FC5\u8981\u7684\u7DE8\u8F2F\uFF0C\u8ACB\u4F7F\u7528\u4E0B\u9762\u7684\u6309\u9215\u4F86\u6FC0\u6D3B
+              Easy Hide \u4E26\u5C0E\u5165 Gizmo\u3002\n"
+          buttons:
+          - name: Open Script Editor
+            local: "\u6253\u958B\u8173\u672C\u7DE8\u8F2F\u5668"
+          - name: Activate Easy Hide
+            local: "\u6FC0\u6D3B\u8F15\u9B06\u96B1\u85CF"
+          - name: Import Gizmos
+            local: "\u5C0E\u5165 Gizmo"
+          toggles: []
+          prompts:
+          - name: Add Symbol
+            header: "\u6DFB\u52A0\u7B26\u865F\uFF1F"
+            message: "\u60A8\u5373\u5C07\u5728\u8A2D\u7F6E\u4E2D\u6DFB\u52A0\u4E00\u500B\u65B0\u7684\u5B9A\u7FA9\u7B26\u865F\uFF0C\u9019\u5C07\u5F37\u5236\u60A8\u7684\u8173\u672C\u91CD\u65B0\u7DE8\u8B6F\u3002\u78BA\u4FDD\u5728\u6DFB\u52A0\u65B0\u7684\u5B9A\u7FA9\u7B26\u865F\u4E4B\u524D\u4FDD\u5B58\u3002\r\n\r\n\u4F60\u78BA\u5B9A\u55CE\uFF1F"
+            buttons:
+            - name: Add
+              local: "\u6DFB\u52A0"
+            - name: Cancel
+              local: "\u53D6\u6D88"
+          - name: Import Gizmos
+            header: "\u5C0E\u5165\u5C0F\u73A9\u610F\u5152\uFF1F"
+            message: "\u60A8\u5373\u5C07\u5C07 Gizmo \u6587\u4EF6\u5F9E Dizzy Media
+              \u7236\u6587\u4EF6\u593E\u79FB\u52D5\u5230 Gizmos \u6587\u4EF6\u593E\u3002\u5982\u679C\u60A8\u5DF2\u7D93\u9019\u6A23\u505A\u4E86\uFF0C\u8ACB\u95DC\u9589\u6B64\u7A97\u53E3\u3002"
+            buttons:
+            - name: Move
+              local: "\u79FB\u52D5"
+            - name: Cancel
+              local: "\u53D6\u6D88"
+          singleValues: []
+    - name: French
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: Version manquante
+          texts:
+          - name: Version Info
+            text: "\nLe fichier Easy Hide Version est absent de votre projet, Easy
+              Hide ne peut pas fonctionner sans lui !\r\n\r\nVous pouvez r\xE9importer
+              le fichier Easy Hide Version du pack de ressources Easy Hide sur le\r
+              magasin d'actifs/gestionnaire de packages.\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Welcome
+          local: Bienvenu
+          texts:
+          - name: Easy Hide Not Active
+            text: "EASY HIDE NON ACTIF\_! Consultez l'onglet CONFIGURATION pour obtenir
+              des instructions."
+          - name: Easy Hide Active
+            text: "CACHE FACILE ACTIF\_!"
+          - name: Instructions
+            text: "\nBonjour et bienvenue sur Easy Hide !\r\n\r\nAvant de commencer,
+              assurez-vous de v\xE9rifier l'onglet Configuration pour les instructions
+              de configuration initiales.\n"
+          buttons:
+          - name: Save Language
+            local: Enregistrer la langue
+          - name: Documentation
+            local: Documentation
+          - name: Review Asset
+            local: Examiner l'actif
+          toggles: []
+          prompts: []
+          singleValues:
+          - name: Show On Start
+            local: "Afficher au d\xE9marrage"
+        - name: Setup
+          local: Installer
+          texts:
+          - name: Easy Hide Not Active
+            text: "EASY HIDE NON ACTIF\_! Suivez les instructions ci-dessous."
+          - name: Easy Hide Active
+            text: "CACHE FACILE ACTIF\_!"
+          - name: Instructions
+            text: "\nLa plupart des fonctionnalit\xE9s d'Easy Hides peuvent \xEAtre
+              utilis\xE9es imm\xE9diatement, mais certaines fonctionnalit\xE9s n\xE9cessitent
+              des modifications mineures des composants du syst\xE8me HFPS pour fonctionner
+              correctement.\r\n\r\nAvant d'activer Easy Hide, utilisez l'extension
+              Script Editor, cette extension apportera des modifications automatiques
+              aux scripts utilis\xE9s par Easy Hide.\r\n\r\nSi vous avez d\xE9j\xE0
+              effectu\xE9 les modifications n\xE9cessaires, utilisez le bouton ci-dessous
+              pour activer Easy Hide et importer des gizmos.\n"
+          buttons:
+          - name: Open Script Editor
+            local: "Ouvrir l'\xE9diteur de scripts"
+          - name: Activate Easy Hide
+            local: Activer Easy Hide
+          - name: Import Gizmos
+            local: Importer des gadgets
+          toggles: []
+          prompts:
+          - name: Add Symbol
+            header: "Ajouter un symbole\_?"
+            message: "Vous \xEAtes sur le point d'ajouter un nouveau symbole D\xE9finir
+              \xE0 vos param\xE8tres, cela forcera vos scripts \xE0 se recompiler.
+              Assurez-vous d'enregistrer avant d'ajouter de nouveaux symboles D\xE9finir.\r\n\r\nEs-tu
+              s\xFBr?"
+            buttons:
+            - name: Add
+              local: Ajouter
+            - name: Cancel
+              local: Annuler
+          - name: Import Gizmos
+            header: "Importer des gadgets\_?"
+            message: "Vous \xEAtes sur le point de d\xE9placer les fichiers Gizmo
+              du dossier parent Dizzy Media vers le dossier Gizmos. Si vous l'avez
+              d\xE9j\xE0 fait, fermez cette fen\xEAtre."
+            buttons:
+            - name: Move
+              local: "D\xE9placer"
+            - name: Cancel
+              local: Annuler
+          singleValues: []
+    - name: Spanish
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: "Falta la versi\xF3n"
+          texts:
+          - name: Version Info
+            text: "\nFalta el archivo Easy Hide Version en su proyecto, \xA1Easy
+              Hide no puede ejecutarse sin \xE9l!\r\n\r\nPuede volver a importar
+              el archivo de la versi\xF3n Easy Hide desde el paquete de activos Easy
+              Hide en el\r almac\xE9n de activos/gestor de paquetes.\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Welcome
+          local: Bienvenidos
+          texts:
+          - name: Easy Hide Not Active
+            text: "\xA1F\xC1CIL OCULTAR NO ACTIVO! Consulte la pesta\xF1a CONFIGURACI\xD3N
+              para obtener instrucciones."
+          - name: Easy Hide Active
+            text: "F\xC1CIL OCULTAR ACTIVO!"
+          - name: Instructions
+            text: "\n\xA1Hola y bienvenido a Easy Hide!\r\n\r\nAntes de comenzar,
+              aseg\xFArese de consultar la pesta\xF1a Configuraci\xF3n para obtener
+              las instrucciones de configuraci\xF3n inicial.\n"
+          buttons:
+          - name: Save Language
+            local: Guardar idioma
+          - name: Documentation
+            local: "Documentaci\xF3n"
+          - name: Review Asset
+            local: Revisar activo
+          toggles: []
+          prompts: []
+          singleValues:
+          - name: Show On Start
+            local: Mostrar al inicio
+        - name: Setup
+          local: "Configuraci\xF3n"
+          texts:
+          - name: Easy Hide Not Active
+            text: "\xA1F\xC1CIL OCULTAR NO ACTIVO! Sigue las instrucciones de abajo."
+          - name: Easy Hide Active
+            text: "F\xC1CIL OCULTAR ACTIVO!"
+          - name: Instructions
+            text: "\nLa mayor\xEDa de las funciones de Easy Hides est\xE1n disponibles
+              para usar de inmediato, sin embargo, algunas funciones requieren modificaciones
+              menores en los componentes del sistema HFPS para que funcionen correctamente.\r\n\r\nAntes
+              de activar Easy Hide, use la extensi\xF3n Script Editor, esta extensi\xF3n
+              realizar\xE1 ediciones autom\xE1ticas en los scripts que usa Easy Hide.\r\n\r\nSi
+              ya realiz\xF3 las ediciones necesarias, use el bot\xF3n a continuaci\xF3n
+              para activar Easy Hide e importar artilugios.\n"
+          buttons:
+          - name: Open Script Editor
+            local: Abrir editor de secuencias de comandos
+          - name: Activate Easy Hide
+            local: "Activar ocultaci\xF3n f\xE1cil"
+          - name: Import Gizmos
+            local: Importar artilugios
+          toggles: []
+          prompts:
+          - name: Add Symbol
+            header: "\xBFAgregar s\xEDmbolo?"
+            message: "Est\xE1 a punto de agregar un nuevo s\xEDmbolo de definici\xF3n
+              a su configuraci\xF3n, esto forzar\xE1 que sus scripts se vuelvan a
+              compilar. Aseg\xFArese de guardar antes de agregar nuevos Definir s\xEDmbolos.\r\n\r\n\xBFEst\xE1
+              seguro?"
+            buttons:
+            - name: Add
+              local: Agregar
+            - name: Cancel
+              local: Cancelar
+          - name: Import Gizmos
+            header: "\xBFImportar artilugios?"
+            message: "Est\xE1 a punto de mover archivos Gizmo de la carpeta principal
+              de Dizzy Media a la carpeta Gizmos. Si ya lo ha hecho, cierre esta
+              ventana."
+            buttons:
+            - name: Move
+              local: Moverse
+            - name: Cancel
+              local: Cancelar
+          singleValues: []

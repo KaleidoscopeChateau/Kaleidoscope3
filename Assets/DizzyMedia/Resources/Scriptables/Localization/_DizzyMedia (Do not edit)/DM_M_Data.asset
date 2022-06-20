@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dffc3f9abac0ed34ca05852747ee6c39, type: 3}
+  m_Name: DM_M_Data
+  m_EditorClassIdentifier: 
+  currentLanguage: 0
+  dictionary:
+  - asset: Audio Diaries
+    menuLoc: {fileID: 11400000, guid: 2ea968d66af70c74fbdb61ce65725773, type: 2}
+  - asset: Diaries Pack
+    menuLoc: {fileID: 11400000, guid: 38fae5a4dabe91a498f2ca5dd1275f0d, type: 2}
+  - asset: Text Diaries
+    menuLoc: {fileID: 11400000, guid: eaf989ec73a302948a16ef11099e2722, type: 2}
+  - asset: Easy Hide
+    menuLoc: {fileID: 11400000, guid: 64a645bd2c26e134bb2316c5a2b5ec95, type: 2}
+  - asset: Puzzler
+    menuLoc: {fileID: 11400000, guid: 2653904acd2dba248b815ec80eab12c5, type: 2}
+  - asset: Script Editor
+    menuLoc: {fileID: 11400000, guid: b0ed9b7129daf214a8946d167ecbbecf, type: 2}
