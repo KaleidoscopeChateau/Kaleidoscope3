@@ -154,7 +154,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.ThunderWireStudio.HorrorFPSKIT
+    Standalone: com.DefaultCompany.Kaleidoscope3
   buildNumber:
     Standalone: 0
     iPhone: 0
