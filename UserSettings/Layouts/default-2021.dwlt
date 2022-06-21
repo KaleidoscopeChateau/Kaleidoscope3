@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 52
+  controlID: 21
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 60
+  controlID: 29
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 61
+  controlID: 30
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -348,38 +348,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabdownload/Brick Project Studio/Apartment Kit/Prefabs/Props/Wine
-      Liquor Beer and Glassware - Sample
+    - Assets/Imges
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabdownload/Brick Project Studio/Apartment Kit/Prefabs/Props/Wine Liquor
-    Beer and Glassware - Sample
+  - Assets/Imges
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\UnityProject\Kaleidoscope3\Kaleidoscope3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 207}
-    m_SelectedIDs: d0f81100
-    m_LastClickedID: 1177808
-    m_ExpandedIDs: 000000004c8301004e83010050830100528301005483010056830100588301005a8301005c8301005e83010060830100628301006483010066830100688301006a8301006c8301006e83010070830100728301007483010076830100788301007a8301007c8301007e83010080830100828301008483010086830100888301008a8301008c8301008e8301009083010048f8110052f8110054f8110056f8110058f8110068f8110000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 8c2f0100
+    m_LastClickedID: 77708
+    m_ExpandedIDs: 00000000702e0100722e0100742e0100762e0100782e01007a2e01007c2e01007e2e0100802e0100822e0100842e0100862e0100882e01008a2e01008c2e01008e2e0100902e0100922e0100942e0100962e0100982e01009a2e01009c2e01009e2e0100a02e0100a22e0100a42e0100a62e0100a82e0100aa2e0100ac2e0100ae2e0100b02e0100b22e0100b42e0100902f01009a2f01009c2f01009e2f0100a02f010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Lighting
-      m_OriginalName: Lighting
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 1177804
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -393,7 +391,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004c8301004e83010050830100528301005483010056830100588301005a8301005c8301005e83010060830100628301006483010066830100688301006a8301006c8301006e83010070830100728301007483010076830100788301007a8301007c8301007e83010080830100828301008483010086830100888301008a8301008c8301008e83010090830100
+    m_ExpandedIDs: 00000000702e0100722e0100742e0100762e0100782e01007a2e01007c2e01007e2e0100802e0100822e0100842e0100862e0100882e01008a2e01008c2e01008e2e0100902e0100922e0100942e0100962e0100982e01009a2e01009c2e01009e2e0100a02e0100a22e0100a42e0100a62e0100a82e0100aa2e0100ac2e0100ae2e0100b02e0100b22e0100b42e0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -522,10 +520,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 321}
-      m_SelectedIDs: f02e0100
-      m_LastClickedID: 77552
-      m_ExpandedIDs: 3ed5ffff6ebe000046bf0000cac4000084cb000048cc0000b4d50000f0d5000006d6000030d6000046d6000058d600003a0c0100603001006e320100
+      scrollPos: {x: 0, y: 95}
+      m_SelectedIDs: e2710000
+      m_LastClickedID: 29154
+      m_ExpandedIDs: b0fdfcff583afdffd84dfdfffa59fdffb460fdff6c0ffeffec1bfeffba47feff9c4bfeff465efeff3e2affff7a72ffffd68bffff8697ffff04fbffffa86f0000d475000082790000fc8f0000849200001c930000cc940000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -768,16 +766,16 @@ MonoBehaviour:
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 1
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.21747394, y: 2.1541884, z: 17.051704}
+    m_Target: {x: 104.44896, y: -32.965168, z: 6.0738626}
     speed: 2
-    m_Value: {x: -0.21747394, y: 2.1541884, z: 17.051704}
+    m_Value: {x: 104.44896, y: -32.965168, z: 6.0738626}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -824,13 +822,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.026149934, y: -0.15709135, z: -0.005559278, w: 0.9878049}
+    m_Target: {x: -0.18327016, y: -0.65332186, z: 0.17195973, w: -0.7152573}
     speed: 2
-    m_Value: {x: -0.026134899, y: -0.15700103, z: -0.005556082, w: 0.9872369}
+    m_Value: {x: -0.18338302, y: -0.6517334, z: 0.17154911, w: -0.71567106}
   m_Size:
-    m_Target: 1.15049
+    m_Target: 59.221794
     speed: 2
-    m_Value: 1.1009474
+    m_Value: 59.221794
   m_Ortho:
     m_Target: 0
     speed: 2
