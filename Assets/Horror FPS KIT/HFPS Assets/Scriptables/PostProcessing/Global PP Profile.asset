@@ -150,12 +150,12 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   spectralLut:
-    overrideState: 1
-    value: {fileID: 2800000, guid: 566fba077b529eb42be00e7fae1b68eb, type: 3}
+    overrideState: 0
+    value: {fileID: 0}
     defaultState: 1
   intensity:
-    overrideState: 0
-    value: 0.008
+    overrideState: 1
+    value: 0.4
   fastMode:
     overrideState: 0
     value: 0
