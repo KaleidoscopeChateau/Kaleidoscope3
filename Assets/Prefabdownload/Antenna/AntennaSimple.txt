@@ -1,0 +1,29 @@
+Antenna simple
+
+by M.B.Schneider / mindcandy.at
+contact: mbs@mindcandy.at
+
+modeled: 	01/2010
+
+
+vertices:	total 3938		
+Faces:		total 7728
+
+
+
+object:		grouped single meshes
+materials:	SCANLINE
+MAT-lib:	antenna_simple.MAT
+
+
+standard maps:	-
+
+custom maps:	-
+
+
+
+comments:
+quick´n´dirty model of a roof antenna
+
+NOTE: 
+
