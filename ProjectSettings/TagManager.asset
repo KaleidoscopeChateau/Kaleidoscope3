@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Flesh
   - Water
+  - Sun
+  - Transparent
   layers:
   - Default
   - TransparentFX
