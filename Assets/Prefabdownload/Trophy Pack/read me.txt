@@ -1,0 +1,14 @@
+The "trophy pack" contains 4 Different models.
+
+Trophy high detail, Trophy low detail, 
+Trophy stage and a shadow plane.
+
+All objects are .fbx format files and all the texture maps are .tga files.
+
+Polycount:
+Low detail Trophy:	520 Tris
+High detail Trophy:	772 Tris
+Trophy stage:		130 Tris
+Shadow plane:		  2 Tris
+
+We would love to hear your rating and comment.
