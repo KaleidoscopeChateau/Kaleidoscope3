@@ -2121,7 +2121,7 @@ MonoBehaviour:
     localizationSettings:
       titleKey: 
       descriptionKey: 
-  - Title: Front Door Key
+  - Title: House Key
     ID: 39
     Description: 
     itemType: 0
