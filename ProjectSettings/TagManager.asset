@@ -8,6 +8,7 @@ TagManager:
   - Water
   - Sun
   - Transparent
+  - Rope
   layers:
   - Default
   - TransparentFX
