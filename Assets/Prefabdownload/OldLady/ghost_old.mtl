@@ -1,0 +1,71 @@
+# Blender MTL File: 'ghost_old.blend'
+# Material Count: 6
+
+newmtl Dress_001
+Ns 249.019608
+Ka 1.000000 1.000000 1.000000
+Kd 0.749804 0.749804 0.749804
+Ks 0.049094 0.049094 0.049094
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.160306 textures\\ghost_old_Dress_001_Normal.png
+map_Kd textures\\ghost_old_Dress_001_BaseColor.png
+
+newmtl eye
+Ns 249.019608
+Ka 1.000000 1.000000 1.000000
+Kd 0.734118 0.706731 0.685404
+Ks 0.458824 0.392157 0.350980
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\\eye_zombie_Diffuse_BLACK.png
+
+newmtl eyelence
+Ns 578.431373
+Ka 1.000000 1.000000 1.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.640000 0.640000 0.640000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+
+newmtl ghost_old
+Ns 249.019608
+Ka 1.000000 1.000000 1.000000
+Kd 0.401569 0.401569 0.401569
+Ks 0.250980 0.250980 0.250980
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.083970 textures\\ghost_old_ghost_old_Normal.png
+map_Kd textures\\ghost_old_ghost_old_BaseColor1.png
+
+newmtl hair
+Ns 249.019608
+Ka 1.000000 1.000000 1.000000
+Kd 0.047059 0.040784 0.040784
+Ks 0.029412 0.025490 0.025490
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\\ghost_old_hair.png
+map_d textures\\ghost_old_hair.png
+
+newmtl teeth.001
+Ns 249.019608
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.400000 0.400000 0.400000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.160306 textures\\ghost_old_teeth_001_Normal.png
+map_Kd textures\\ghost_old_teeth_001_BaseColor.png
