@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wall1Custom
+  m_Shader: {fileID: 4800000, guid: 5d4cadfb8b2645440bece57c56670724, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _INTPOSINF_ON
+  - _NORMALMAP
+  - _PARALLAXMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 92c3e414a7193c94cb7ce5e3c2262432, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMapUnder:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InterpBump:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InterpNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 93f2b90d2e25048428936d778e3709e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 2800000, guid: 49a1c5160f25f3d4089b7b5adecab7e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecInterpBump:
+        m_Texture: {fileID: 2800000, guid: 1587e8350d446514abcd8ac5a6383484, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecInterpNormal:
+        m_Texture: {fileID: 2800000, guid: 2e15d9a31f4026c4390e6c592122731d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UnderTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Blending: 0
+    - _BumpScale: 0.4
+    - _CChangeGrad: 0
+    - _CChangeHeight: 0
+    - _CChangePenGrad: 0
+    - _CChangePenPos: 0
+    - _CChangePenWidth: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _IntBlend: 0.5
+    - _IntPosInf: 1
+    - _MaxNoise: 0.99
+    - _Metallic: 0
+    - _MinNoise: 0.01
+    - _Mode: 0
+    - _NoiseBumpStrength: 0.03
+    - _OcclusionStrength: 1
+    - _Parallax: 0.08
+    - _SecGlossiness: 0
+    - _SecMetallic: 0
+    - _SmoothEnd: 0.5
+    - _SmoothSmooth: 0
+    - _SmoothStart: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _CChangeAmbCol: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
+    - _Cos: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _IntClampPos: {r: 1, g: 1, b: 1, a: 0}
+    - _IntClampWidth: {r: 1, g: 1, b: 1, a: 0}
+    - _IntOffsetFactor: {r: 0, g: 0, b: 0, a: 0}
+    - _IntPosGrad: {r: 1, g: 1, b: 1, a: 0}
+    - _IntScaleFactor: {r: 1, g: 1, b: 1, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainOffsetFactor: {r: 0, g: 0, b: 0, a: 0}
+    - _MainScaleFactor: {r: 1, g: 1, b: 1, a: 0}
+    - _SecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecCos: {r: 1, g: 1, b: 1, a: 0}
+    - _SecIntOffsetFactor: {r: 0, g: 0, b: 0, a: 0}
+    - _SecIntScaleFactor: {r: 1, g: 1, b: 1, a: 0}
+    - _SecOffsetFactor: {r: 0, g: 0, b: 0, a: 0}
+    - _SecScaleFactor: {r: 1, g: 1, b: 1, a: 0}
+    - _SecSin: {r: 0, g: 0, b: 0, a: 0}
+    - _Sin: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
