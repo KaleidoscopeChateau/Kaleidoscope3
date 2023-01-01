@@ -126,7 +126,7 @@ Material:
     - _Color: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
     - _Cos: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _IntClampPos: {r: -1.0703812, g: 1.04382, b: 11.379603, a: 0}
+    - _IntClampPos: {r: -1.0703812, g: 1.3641343, b: 11.214953, a: 0}
     - _IntClampWidth: {r: 1, g: 2, b: 2, a: 0}
     - _IntOffsetFactor: {r: 0, g: 0, b: 0, a: 0}
     - _IntPosGrad: {r: 1, g: 1, b: 1, a: 0}
