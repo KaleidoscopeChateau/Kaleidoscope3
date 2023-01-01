@@ -26,7 +26,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMapUnder:
-        m_Texture: {fileID: 2800000, guid: b377c9ce4057e284eb8ef151d3867aa9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -54,7 +54,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 9444cabb7ca905a4a91b4eef17d741b4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -70,7 +70,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SecInterpBump:
-        m_Texture: {fileID: 2800000, guid: 22d61f7545f843049a0e692f0ef884e2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 57d15faaf1ea81c4d8fbca6f76718851, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SecInterpNormal:
@@ -78,7 +78,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _UnderTex:
-        m_Texture: {fileID: 2800000, guid: add3e05fe01175d488628368e07a0cf5, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -96,7 +96,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _IntBlend: 0.591
+    - _IntBlend: 1
     - _IntPosInf: 1
     - _MaxNoise: 0.99
     - _Metallic: 0
@@ -116,11 +116,11 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _CChangeAmbCol: {r: 1, g: 1, b: 1, a: 1}
+    - _CChangeAmbCol: {r: 0.06275329, g: 0.1792453, b: 0.039738342, a: 1}
     - _Color: {r: 0.990566, g: 0, b: 0, a: 1}
     - _Cos: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _IntClampPos: {r: 0, g: 0, b: 0, a: 0}
+    - _IntClampPos: {r: 0, g: 0.9786279, b: -0.2078413, a: 0}
     - _IntClampWidth: {r: 1, g: 1, b: 1, a: 0}
     - _IntOffsetFactor: {r: 0, g: 0, b: 0, a: 0}
     - _IntPosGrad: {r: 1, g: 1, b: 1, a: 0}
