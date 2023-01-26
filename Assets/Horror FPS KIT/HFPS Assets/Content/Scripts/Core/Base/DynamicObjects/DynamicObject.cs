@@ -10,6 +10,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using ThunderWire.Helpers;
 using HFPS.Player;
+using Progression;
 
 #if TW_LOCALIZATION_PRESENT
 using ThunderWire.Localization;
@@ -138,6 +139,8 @@ namespace HFPS.Systems
         public AudioClip UnlockSound;
         public AudioClip LeverUpSound;
         #endregion
+        public Rooms ConnectedRoom;
+        public int lightAmount = 0;
 
         public bool DebugAngle;
         public float rotateValue;
@@ -505,7 +508,9 @@ namespace HFPS.Systems
                         if (Angle > minAngle && Angle < maxAngle && Angle >= stopAngle)
                         {
                             InteractEvent?.Invoke();
-
+                            //customcode
+                            ProgressionManager.Instance.AddLight(ConnectedRoom, lightAmount);
+                            //customcode end
                             if (!isPlayed && !loadSound && LeverUpSound)
                             {
                                 AudioSource.PlayClipAtPoint(LeverUpSound, transform.position, 1f);
@@ -519,6 +524,9 @@ namespace HFPS.Systems
                         }
                         else
                         {
+                            //customcode
+                            ProgressionManager.Instance.RemoveLight(ConnectedRoom, lightAmount);
+                            //customcode 2
                             DisabledEvent?.Invoke();
                             invokeUp = false;
                             isInvoked = true;

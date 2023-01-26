@@ -8,6 +8,10 @@ namespace HFPS.Editors
     [CustomEditor(typeof(DynamicObject)), CanEditMultipleObjects]
     public class DynamicObjectEditor : Editor
     {
+        public SerializedProperty sp_ConnectedRoom;
+        public SerializedProperty sp_lightAmount;
+
+        // OG code
         #region Enums
         public SerializedProperty sp_dynamicType;
         public SerializedProperty sp_useType;
@@ -71,6 +75,11 @@ namespace HFPS.Editors
 
         void OnEnable()
         {
+            sp_ConnectedRoom = serializedObject.FindProperty("ConnectedRoom");
+            sp_lightAmount = serializedObject.FindProperty("lightAmount");
+
+
+            // original code below
             sp_dynamicType = serializedObject.FindProperty("dynamicType");
             sp_useType = serializedObject.FindProperty("useType");
             sp_interactType = serializedObject.FindProperty("interactType");
@@ -117,6 +126,10 @@ namespace HFPS.Editors
         {
             serializedObject.Update();
 
+            // elrenzo code
+            EditorGUILayout.PropertyField(sp_ConnectedRoom);
+            EditorGUILayout.PropertyField(sp_lightAmount);
+            // og
             Type_Dynamic dynamicType = (Type_Dynamic)sp_dynamicType.enumValueIndex;
             Type_Use useType = (Type_Use)sp_useType.enumValueIndex;
             Type_Interact int_type = (Type_Interact)sp_interactType.enumValueIndex;

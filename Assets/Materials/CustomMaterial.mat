@@ -70,15 +70,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SecInterpBump:
-        m_Texture: {fileID: 2800000, guid: 57d15faaf1ea81c4d8fbca6f76718851, type: 3}
+        m_Texture: {fileID: 2800000, guid: fa9ba900e88e73c46b7f651693a49dd6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SecInterpNormal:
-        m_Texture: {fileID: 2800000, guid: 39bc67437d10edf4a8de1a0990e3bf06, type: 3}
+        m_Texture: {fileID: 2800000, guid: 84f18770439fb0d48af8066ac8c0bdf6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _UnderTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2a685e8fdbcd6254597711350f9ea8f7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -87,14 +87,14 @@ Material:
     - _BumpScale: 1
     - _CChangeGrad: 0
     - _CChangeHeight: 0
-    - _CChangePenGrad: 0
-    - _CChangePenPos: 0
-    - _CChangePenWidth: 0
+    - _CChangePenGrad: 0.234
+    - _CChangePenPos: 0.009999995
+    - _CChangePenWidth: 0.000000004656613
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.186
     - _GlossyReflections: 1
     - _IntBlend: 1
     - _IntPosInf: 1
@@ -102,7 +102,7 @@ Material:
     - _Metallic: 0
     - _MinNoise: 0.01
     - _Mode: 0
-    - _NoiseBumpStrength: 1
+    - _NoiseBumpStrength: 0.989
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SecGlossiness: 0
@@ -116,11 +116,11 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _CChangeAmbCol: {r: 0.06275329, g: 0.1792453, b: 0.039738342, a: 1}
+    - _CChangeAmbCol: {r: 0.22997528, g: 0.24528301, b: 0.21635813, a: 1}
     - _Color: {r: 0.990566, g: 0, b: 0, a: 1}
     - _Cos: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _IntClampPos: {r: 0, g: 0.9786279, b: -0.2078413, a: 0}
+    - _IntClampPos: {r: 0.0100189, g: 1.6431446, b: 12.034145, a: 0}
     - _IntClampWidth: {r: 1, g: 1, b: 1, a: 0}
     - _IntOffsetFactor: {r: 0, g: 0, b: 0, a: 0}
     - _IntPosGrad: {r: 1, g: 1, b: 1, a: 0}
@@ -131,7 +131,7 @@ Material:
     - _SecColor: {r: 1, g: 1, b: 1, a: 1}
     - _SecCos: {r: 1, g: 1, b: 1, a: 0}
     - _SecIntOffsetFactor: {r: 0, g: 0, b: 0, a: 0}
-    - _SecIntScaleFactor: {r: 1.1, g: 1.1, b: 1.1, a: 0}
+    - _SecIntScaleFactor: {r: 1, g: 1, b: 1, a: 0}
     - _SecOffsetFactor: {r: 0, g: 0, b: 0, a: 0}
     - _SecScaleFactor: {r: 1, g: 1, b: 1, a: 0}
     - _SecSin: {r: 0, g: 0, b: 0, a: 0}

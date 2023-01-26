@@ -221,7 +221,7 @@ namespace HFPS.Player
 
         #region Private Variables
         protected Timekeeper timekeeper = new Timekeeper();
-        private (string, string) ExitLadder = ("GameUI.ExitLadder", "Exit Ladder");
+        private (string, string) ExitLadder = ("GameUI.StopClimbing", "Stop Climbing");
 
         private HFPS_GameManager gameManager;
         private ScriptManager scriptManager;

@@ -1,0 +1,725 @@
+fileFormatVersion: 2
+guid: bcd5cf27ea520f145b69690284600ad5
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottle01
+    second: {fileID: 2100000, guid: c1a09b446c6a82a4cb840912e475ba63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrokenWall_Debris
+    second: {fileID: 2100000, guid: 2b8cd0dae8278b240a3363fdd4647976, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cardboardbox
+    second: {fileID: 2100000, guid: 0d96a2b3e1fef0f44a57d38e729d77ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GarbegeBag01
+    second: {fileID: 2100000, guid: f8acf00213d6bbb4eb6eafd5a4507d5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GarbegeBag02
+    second: {fileID: 2100000, guid: b77fdd67729c9f246b58cb657b6dfd7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InnerWall
+    second: {fileID: 2100000, guid: 901bb685f4d9c3047ab56fbf25248229, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PaperCip01
+    second: {fileID: 2100000, guid: d65725bd3c01eb640a50e4f5b249cea2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Recycle_Shared_RubbishPile01
+    second: {fileID: 2100000, guid: 1bb79bb8f875356498dfbaa3459b1a57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SandbagSingles_01
+    second: {fileID: 2100000, guid: f09cfee8df170134485360678d1af583, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sb_CardboardBox01
+    second: {fileID: 2100000, guid: de62682b368b9144cb1a7e2e0b95de62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoppingcart_01
+    second: {fileID: 2100000, guid: 2d5d1d277ecffcc4c978fdef31c159be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TireStacksThrash01
+    second: {fileID: 2100000, guid: 27796d9ac3fb1d5408059d57d6c401fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tires_02
+    second: {fileID: 2100000, guid: e39696e556a04a742ad3f645e256a2d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tires_04
+    second: {fileID: 2100000, guid: 09916f5b925f7f34eaf3b199dbcaf4c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trash
+    second: {fileID: 2100000, guid: 5737c9321b892584a903b9b0e483bfb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrashCan01
+    second: {fileID: 2100000, guid: b32c9c0ba3533474aa486af9c4c8dff6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trashbag
+    second: {fileID: 2100000, guid: 7bdadd330cf07ce4485745091d39a477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Trims_00
+    second: {fileID: 2100000, guid: 86fcff33da402874cae8e350538739f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: World_Meshes_Shimmer
+    second: {fileID: 2100000, guid: 4de40501d0a09ce4485abdd04aae0451, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cardboardboxmat
+    second: {fileID: 2100000, guid: 35e1ea82c5821b34eb7c61079069907e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fence_01
+    second: {fileID: 2100000, guid: 72966249954888f4384d35b12462830f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: garbage_bag_a_01
+    second: {fileID: 2100000, guid: d9e991c0ef74e814bb2a6eeb042e1bc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: general_barrel_a_01
+    second: {fileID: 2100000, guid: e2d0817f64a573e45b5fbd348c471338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: general_barrel_b_01
+    second: {fileID: 2100000, guid: d4574e254494eac4986908c3822ac04c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: general_box_a_01
+    second: {fileID: 2100000, guid: cf823211479f35b479fcb4142177852d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: general_box_b_01
+    second: {fileID: 2100000, guid: 4650b8c74757fef4c86bbf51739371e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: general_box_e_01
+    second: {fileID: 2100000, guid: d8fc5b77f8b019c49b05aedb10d9e51d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: general_can_paint_a_02
+    second: {fileID: 2100000, guid: 8cac02b9b31ffab45b15b9a1e0b50d38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: general_chain_w2_a_01
+    second: {fileID: 2100000, guid: 3ba1c01e923174f4d85e91f3f9f4322c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: general_folding_chair_a_01
+    second: {fileID: 2100000, guid: 20ba1ef8f271922448f4f12c4116a8c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: general_petrolcanister_a_01
+    second: {fileID: 2100000, guid: 7c92263fe6e3c3a42bac066e7c1fd4f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: general_propane_bottle_a_01
+    second: {fileID: 2100000, guid: 9596c21ecd798a84692fa1b10ce798bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: general_table_a_01
+    second: {fileID: 2100000, guid: 29c3caf002e0ce5428881ca088212061, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pallet_a_01
+    second: {fileID: 2100000, guid: 688d0e1c083f56a499c4a9c74dc52ebe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paperTrash01
+    second: {fileID: 2100000, guid: dcf6f0c728784af49bf5b5a5ef5fb5c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prison_bedframe_02
+    second: {fileID: 2100000, guid: 27338d7f6faf71f49b12cd04328be237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prison_mattress_02
+    second: {fileID: 2100000, guid: 3d17955e1b55e49419e95718720dfdcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_garbage_piles_a_01
+    second: {fileID: 2100000, guid: db0e3bc523998914aa72887b4176d1df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trash_waterbarrel_a_01
+    second: {fileID: 2100000, guid: 33fef30a3aeba0744850c2e9cba00d77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trash_wood_a_01
+    second: {fileID: 2100000, guid: 5a6b162391af04f438b694e6935b8450, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trash_wood_b_01
+    second: {fileID: 2100000, guid: 8754a105ce30a9d468ff483bf15695ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trash_wood_c_01
+    second: {fileID: 2100000, guid: 6dbc397653bddbb438c604433282634b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: watertank_a_01
+    second: {fileID: 2100000, guid: a6dcb823b5157c845af3ea9ea16b4620, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fence_01_01_-_Default_BaseColoe
+    second: {fileID: 2800000, guid: 22223d26be902514f86a9bc4c4b74ee5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fence_01_01_-_Default_Normal
+    second: {fileID: 2800000, guid: a1b3387ad43488047b82eadd9625f124, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaperTrash01
+    second: {fileID: 2800000, guid: 89d6e21056f89ba45b6deb7e388983f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_garbage_bag_a_01_1001_BaseColor
+    second: {fileID: 2800000, guid: 66f1f23849831dd46bc94894d983ceb5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_garbage_bag_a_01_1001_Normal
+    second: {fileID: 2800000, guid: d43e4cdf89deaa346b1d20d7f0e56d52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_barrel_a_01_Standard_BaseColor
+    second: {fileID: 2800000, guid: cee11c5328864bd44b4e66150a6aea55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_barrel_a_01_Standard_Normal
+    second: {fileID: 2800000, guid: e85999f0c0eb1e241b7a6da638f6272d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_barrel_b_01_Standard_BaseColor
+    second: {fileID: 2800000, guid: c6722164f1061a7459a4f56bd80c3089, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_barrel_b_01_Standard_Normal
+    second: {fileID: 2800000, guid: 54bd14e0b0e8cfb4fb8913e911e01a5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_box_a_01_Standard_BaseColor
+    second: {fileID: 2800000, guid: f18b5af88666212438a5c22d7aae94c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_box_a_01_Standard_Normal
+    second: {fileID: 2800000, guid: 334ca93173b84c446b4aa7b53df90996, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_box_b_01_Standard_BaseColor
+    second: {fileID: 2800000, guid: c6ba71eee6ed4f640b149ff2b4cba150, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_box_b_01_Standard_Normal
+    second: {fileID: 2800000, guid: 234d43c7e02b37d45b2346cf1a1a354b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_box_e_01_Standard_BaseColor
+    second: {fileID: 2800000, guid: 7adb7d62d41767846a807529d82850cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_box_e_01_Standard_Normal
+    second: {fileID: 2800000, guid: 8f9547e1c5fe1d147b36a1060aa3b0e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_can_a_01_Standard_BaseColor
+    second: {fileID: 2800000, guid: d428fc150d1e1c24998aa2e8deea22bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_can_a_01_Standard_Normal
+    second: {fileID: 2800000, guid: 1e73ed70dcb538645837eddc51cbab6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_chain_w2_a_01_DefaultMaterial_BaseColor
+    second: {fileID: 2800000, guid: b2dc853571d90e045a87091baff9390c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_chain_w2_a_01_DefaultMaterial_Normal
+    second: {fileID: 2800000, guid: 351196824aef77b47a9d10d03e8ac8bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_folding_chair_a_01_Standard_BaseColor
+    second: {fileID: 2800000, guid: 33e25c556be0ba64d907cf7449fe152f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_folding_chair_a_01_Standard_Normal
+    second: {fileID: 2800000, guid: 12ffd5e0c09dfeb449fb624ff856069b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_petrolcanister_a_01_13_-_Default_BaseColor
+    second: {fileID: 2800000, guid: af51bf110b3cab1438e75a75bab4f751, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_petrolcanister_a_01_13_-_Default_Normal
+    second: {fileID: 2800000, guid: 08d51097fbad43d43bec1e4590053478, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_propane_bottle_a_01_Standard_BaseColor
+    second: {fileID: 2800000, guid: 4bf9f775103f8714d963572e55109dca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_propane_bottle_a_01_Standard_Normal
+    second: {fileID: 2800000, guid: a7e7aa2fdd2453d48a8ccb40896d1f5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_table_a_01_1001_BaseColor
+    second: {fileID: 2800000, guid: 6876d1255fcbbf14d80791f30e29c525, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_general_table_a_01_1001_Normal
+    second: {fileID: 2800000, guid: 2815315350146af479d0ee6c28cf4a51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_generic_watertank_a_01_03_-_Default_BaseColor
+    second: {fileID: 2800000, guid: 002a4a053b1f74b41996caee230614f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_generic_watertank_a_01_03_-_Default_Normal
+    second: {fileID: 2800000, guid: eb556c187043c1d4eb6a75678d27fc2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_pallet_a_01_1001_BaseColor
+    second: {fileID: 2800000, guid: 22430dc3f44688243bd3bf734cfd564a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_pallet_a_01_1001_Normal
+    second: {fileID: 2800000, guid: e0519b7667a04584cb2de85342ece270, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_prison_bedframe_02_01_-_Default_BaseColor
+    second: {fileID: 2800000, guid: a1bafb5cd2ebc584d91fa09cf8f0c755, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_prison_bedframe_02_01_-_Default_Normal
+    second: {fileID: 2800000, guid: 2a778aba6f10a4c40bb9b6be1132e54c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_prison_matress_02_LP_1001_BaseColor
+    second: {fileID: 2800000, guid: 21d9a8f3eb2b076428e6da54db15fb5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_prison_matress_02_LP_1001_Normal
+    second: {fileID: 2800000, guid: 814e8128f18203e49bfbbfcb5e1315f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_trash_waterbarrel_a_01_1001_BaseColor
+    second: {fileID: 2800000, guid: 839ac05910e7ca142a98195f9ec5262e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_trash_waterbarrel_a_01_1001_Normal
+    second: {fileID: 2800000, guid: c47500a8416e56849a633e538353349f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_trash_wood_a_01_1001_BaseColor
+    second: {fileID: 2800000, guid: 57a90f9c087bc594297a1b94d388d01a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_trash_wood_a_01_1001_Normal
+    second: {fileID: 2800000, guid: b762521a5d3603b4c84126fd5bd01755, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_trash_wood_b_01_1001_BaseColor
+    second: {fileID: 2800000, guid: 10050a8cd0becf249af5e25a224e0b14, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_trash_wood_b_01_1001_Normal
+    second: {fileID: 2800000, guid: 74d0725ad5476b3478497c50411f4388, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_trash_wood_c_01_1001_BaseColor
+    second: {fileID: 2800000, guid: d11c71568604b06469343febe14a8e09, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_trash_wood_c_01_1001_Normal
+    second: {fileID: 2800000, guid: a48596f3f26cfed45b5f760af3d4bf6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TX_shoppingcart_01_ALB
+    second: {fileID: 2800000, guid: cd0cf392d24f2ae4aa81081603d3b150, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TX_shoppingcart_01_NRM
+    second: {fileID: 2800000, guid: 3da442d15bf77a6438a710b1fa98cde8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bottle01
+    second: {fileID: 2800000, guid: 18c4181678786984dacf7854fc81d8e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_BrokenConcrete_BC
+    second: {fileID: 2800000, guid: 8980f72ef9ff6f642a5771bfc75e5285, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_BrokenConcrete_N
+    second: {fileID: 2800000, guid: d572477cf0bd76f46b1d9db0dedfcbaf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_BrokenWall_BC
+    second: {fileID: 2800000, guid: d1ac0c30f8130b045ba0ce583ebc25d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_BrokenWall_N
+    second: {fileID: 2800000, guid: df8f5aa5462201945ba827ffbd753618, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_CardBoardBox01_BC
+    second: {fileID: 2800000, guid: 4d6611f86b8fe8a478b27cbaa8f50b81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Cardboardbox_BC
+    second: {fileID: 2800000, guid: 570d2ba18a83f0745819ad8605b24e57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Cardboardbox_N
+    second: {fileID: 2800000, guid: 7a08d23579f420648803905103630360, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_GarbegeBag01
+    second: {fileID: 2800000, guid: 3a456d80ef893874c8d45a48206fd2d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_GarbegeBag01_N
+    second: {fileID: 2800000, guid: de8965ca3758dc647a475216ac26f907, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_GarbegeBag02
+    second: {fileID: 2800000, guid: f425e5a8ceeb0714595d30b57a6c8abb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_PaperCup
+    second: {fileID: 2800000, guid: d7d7405a2919ffa4a9165eb3222649fa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Recycle_Shared_RubbishPile01_D
+    second: {fileID: 2800000, guid: c263b94dcf3c3a843b876faff5f3b06f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Recycle_Shared_RubbishPile01_N
+    second: {fileID: 2800000, guid: 466d661f6bd03b746bff2ca67c197d50, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_SM_TirePile01
+    second: {fileID: 2800000, guid: 7e1a2c87698df22408566e657c1d0343, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_SandbagSingles_01_Albedo_R
+    second: {fileID: 2800000, guid: b758660d057da2e4bb40af2df594f9e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_SandbagSingles_01_NOM
+    second: {fileID: 2800000, guid: 546bc95691468d4499fcbb7ecae5f063, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Tires_01_BC
+    second: {fileID: 2800000, guid: fb1bd94e9f456b94189cd5f1a071b86c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Tires_01_N
+    second: {fileID: 2800000, guid: b0ec93ecb8908864fad2a6bfbc98e63f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Tires_02_BC
+    second: {fileID: 2800000, guid: f4a75cabb9991df43ba7c0eb0f1eb99f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Tires_02_N
+    second: {fileID: 2800000, guid: 24d63aafe375eba4ab4b64c2c5dea76f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Tires_04_BC
+    second: {fileID: 2800000, guid: f4d626ea5570e4e49810e5eb2b521e10, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Tires_04_N
+    second: {fileID: 2800000, guid: 9d09e9e338e34494dac12307872d38e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_TrashCan01_N
+    second: {fileID: 2800000, guid: a8de4dd25dda546479f681aa68b0a02d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_TrashCan02
+    second: {fileID: 2800000, guid: b2facf37364b3c841b5cbd321cda75d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Trash_BC
+    second: {fileID: 2800000, guid: 8ccc895808d85de40a75e520c27f5e1a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Trash_N
+    second: {fileID: 2800000, guid: 34230997df51cdd478e8d0baaf9f2acb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Trashbag_BC
+    second: {fileID: 2800000, guid: ed3e75cf237296743b67ba15686316dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Trashbag_N
+    second: {fileID: 2800000, guid: 6e5eb9321d3ad3543b6c445b21b81445, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_WorldMeshAtlas
+    second: {fileID: 2800000, guid: d5067871d2cffee458426f14693168d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_WorldMeshAtlas_normal
+    second: {fileID: 2800000, guid: 53dd294a5b026f242a5b623c65feae9a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood_Test_Default_BaseColor
+    second: {fileID: 2800000, guid: 21cb7bf6326896d43bc70ed8b114c14a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxes_d
+    second: {fileID: 2800000, guid: 17c91116749e52d4cbbddcf5e7285d88, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boxes_n
+    second: {fileID: 2800000, guid: 006d47b4f663396419c73eddd730291b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: prop_garbage_piles_basecolor
+    second: {fileID: 2800000, guid: f35c14a2d8820104f86195eb4d3cea78, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: prop_garbage_piles_normal
+    second: {fileID: 2800000, guid: 98b131bc8ecf87a458d3c3d5f9ed74eb, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
